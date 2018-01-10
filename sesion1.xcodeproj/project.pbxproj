@@ -12,6 +12,7 @@
 		89E82E452003C02A00EEA35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E82E432003C02A00EEA35D /* Main.storyboard */; };
 		89E82E472003C02A00EEA35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E82E462003C02A00EEA35D /* Assets.xcassets */; };
 		89E82E4A2003C02A00EEA35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E82E482003C02A00EEA35D /* LaunchScreen.storyboard */; };
+		89E82E522003C38300EEA35D /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E82E512003C38300EEA35D /* newViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89E82E462003C02A00EEA35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89E82E492003C02A00EEA35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E82E4B2003C02A00EEA35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89E82E512003C38300EEA35D /* newViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				89E82E3F2003C02A00EEA35D /* AppDelegate.swift */,
 				89E82E412003C02A00EEA35D /* ViewController.swift */,
+				89E82E512003C38300EEA35D /* newViewController.swift */,
 				89E82E432003C02A00EEA35D /* Main.storyboard */,
 				89E82E462003C02A00EEA35D /* Assets.xcassets */,
 				89E82E482003C02A00EEA35D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				89E82E422003C02A00EEA35D /* ViewController.swift in Sources */,
 				89E82E402003C02A00EEA35D /* AppDelegate.swift in Sources */,
+				89E82E522003C38300EEA35D /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +273,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcondeer.sesion1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -282,6 +287,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lcondeer.sesion1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
